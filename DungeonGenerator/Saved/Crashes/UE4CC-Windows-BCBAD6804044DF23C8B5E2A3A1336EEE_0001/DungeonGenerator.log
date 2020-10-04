@@ -1,0 +1,1700 @@
+﻿Log file open, 10/03/20 11:18:52
+LogInit: Display: Running engine for game: DungeonGenerator
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.552226
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2080 SUPER
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UnrealEngine/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+[2020.10.03-17.18.54:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.03-17.18.54:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+[2020.10.03-17.18.54:836][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+[2020.10.03-17.18.54:844][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.03-17.18.54:844][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.03-17.18.54:845][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.03-17.18.54:845][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.03-17.18.54:845][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.03-17.18.54:846][  0]LogHAL: Display: Platform has ~ 16 GB [17105043456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.03-17.18.54:846][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.03-17.18.54:846][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:846][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.03-17.18.54:846][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.03-17.18.54:846][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.03-17.18.54:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.03-17.18.54:848][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.03-17.18.54:848][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.03-17.18.54:848][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.03-17.18.54:848][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.03-17.18.54:848][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.03-17.18.54:848][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.03-17.18.54:854][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.03-17.18.54:854][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.03-17.18.54:854][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.03-17.18.54:854][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Config/Windows/Engine.ini]
+[2020.10.03-17.18.54:855][  0]LogInit: Computer: DESKTOP-7A4L19L
+[2020.10.03-17.18.54:855][  0]LogInit: User: balaj
+[2020.10.03-17.18.54:855][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.10.03-17.18.54:855][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.03-17.18.54:855][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.03-17.18.54:855][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.03-17.18.54:855][  0]LogMemory: Process Physical Memory: 118.74 MB used, 118.74 MB peak
+[2020.10.03-17.18.54:855][  0]LogMemory: Process Virtual Memory: 101.80 MB used, 101.80 MB peak
+[2020.10.03-17.18.54:855][  0]LogMemory: Physical Memory: 8048.66 MB used,  8263.98 MB free, 16312.64 MB total
+[2020.10.03-17.18.54:855][  0]LogMemory: Virtual Memory: 5226.23 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2020.10.03-17.18.55:082][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.03-17.18.55:337][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.03-17.18.55:338][  0]LogInit: Using OS detected language (en-US).
+[2020.10.03-17.18.55:338][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.03-17.18.55:350][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.03-17.18.55:609][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.03-17.18.55:690][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.03-17.18.55:690][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.03-17.18.57:964][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.03-17.18.57:964][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.03-17.18.57:964][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.03-17.18.57:964][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.03-17.18.58:033][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
+[2020.10.03-17.18.58:033][  0]LogD3D11RHI:       8010/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.10.03-17.18.58:035][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.03-17.18.58:035][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.03-17.18.58:035][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.03-17.18.58:045][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.03-17.18.58:045][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.03-17.18.58:045][  0]LogWindows: EnumDisplayDevices:
+[2020.10.03-17.18.58:045][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
+[2020.10.03-17.18.58:045][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
+[2020.10.03-17.18.58:045][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
+[2020.10.03-17.18.58:045][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2020.10.03-17.18.58:046][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.03-17.18.58:046][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
+[2020.10.03-17.18.58:046][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.10.03-17.18.58:046][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.10.03-17.18.58:046][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.10.03-17.18.58:093][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.03-17.18.58:095][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.03-17.18.58:095][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.03-17.18.58:095][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.03-17.18.58:136][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.03-17.18.58:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.03-17.18.58:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.03-17.18.58:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.03-17.18.58:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.03-17.18.58:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.03-17.18.58:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.03-17.18.58:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.03-17.18.58:779][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.03-17.18.58:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.03-17.18.58:820][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.03-17.18.58:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.03-17.18.58:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.03-17.18.58:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.03-17.18.58:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.03-17.18.58:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.03-17.18.58:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.03-17.18.58:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.03-17.18.58:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.03-17.18.58:988][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.03-17.18.58:988][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.03-17.18.59:053][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.03-17.18.59:358][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../../GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Intermediate/Shaders/WorkingDirectory/28440/).
+[2020.10.03-17.18.59:358][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/balaj/AppData/Local/Temp/UnrealShaderWorkingDir/9E093DF741224D82166B4DA6FE2F18C8/'.
+[2020.10.03-17.18.59:359][  0]LogXGEController: Cleaning working directory: C:/Users/balaj/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.03-17.18.59:359][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.03-17.18.59:359][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.03-17.18.59:359][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.03-17.19.02:139][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.03-17.19.02:218][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/balaj/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.03-17.19.02:218][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/balaj/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.03-17.19.02:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.03-17.19.02:218][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.03-17.19.02:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.03-17.19.02:218][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.03-17.19.02:236][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.03-17.19.02:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.03-17.19.02:236][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.03-17.19.02:237][  0]LogDerivedDataCache: Using Local data cache path C:/Users/balaj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.03-17.19.02:237][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.03-17.19.02:237][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.03-17.19.02:284][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.03-17.19.02:300][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.03-17.19.02:542][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2020.10.03-17.19.02:830][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.03-17.19.03:194][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.03-17.19.03:194][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.03-17.19.03:194][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.03-17.19.03:194][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.03-17.19.03:194][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.03-17.19.03:260][  0]LogNetVersion: DungeonGenerator 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1437415712)
+[2020.10.03-17.19.06:266][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000263C71ED7C0), frame # 0
+[2020.10.03-17.19.06:266][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263C717EAC0), frame # 0
+[2020.10.03-17.19.06:269][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263C71C5C00), frame # 0
+[2020.10.03-17.19.06:344][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.050093 seconds
+[2020.10.03-17.19.06:352][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.03-17.19.06:352][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.03-17.19.06:352][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.03-17.19.08:008][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.03-17.19.08:026][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.03-17.19.08:379][  0]SourceControl: Source control is disabled
+[2020.10.03-17.19.08:380][  0]SourceControl: Source control is disabled
+[2020.10.03-17.19.08:400][  0]SourceControl: Source control is disabled
+[2020.10.03-17.19.08:416][  0]SourceControl: Source control is disabled
+[2020.10.03-17.19.08:450][  0]SourceControl: Source control is disabled
+[2020.10.03-17.19.09:579][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.03-17.19.09:672][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.03-17.19.09:672][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.03-17.19.09:854][  0]LogOcInput: OculusInput pre-init called
+[2020.10.03-17.19.10:272][  0]LogEngine: Initializing Engine...
+[2020.10.03-17.19.10:273][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.03-17.19.10:273][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.03-17.19.10:275][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.10.03-17.19.10:539][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.03-17.19.10:572][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.03-17.19.10:572][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263D04D7C00), frame # 0
+[2020.10.03-17.19.10:573][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D04DFB00), frame # 0
+[2020.10.03-17.19.10:592][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.19.10:592][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.19.10:592][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.19.10:592][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.19.10:592][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.19.10:592][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.19.10:592][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.19.10:593][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.19.10:594][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.19.10:594][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.19.10:697][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.19.10:697][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.19.10:727][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.19.10:727][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.19.10:748][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.19.10:748][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.19.10:749][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.19.10:750][  0]LogInit: FAudioDevice initialized.
+[2020.10.03-17.19.10:750][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.03-17.19.10:796][  0]LogDerivedDataCache: Saved boot cache 0.05s 79MB C:/Users/balaj/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.03-17.19.10:800][  0]LogInit: Texture streaming: Enabled
+[2020.10.03-17.19.10:863][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.03-17.19.10:863][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.03-17.19.10:864][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.03-17.19.10:950][  0]LogInit: Transaction tracking system initialized
+[2020.10.03-17.19.11:051][  0]BlueprintLog: New page: Editor Load
+[2020.10.03-17.19.11:390][  0]LocalizationService: Localization service is disabled
+[2020.10.03-17.19.12:058][  0]LogFileCache: Scanning file cache for directory 'E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Content/' took 0.01s
+[2020.10.03-17.19.12:058][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.03-17.19.12:058][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.03-17.19.12:938][  0]SourceControl: Source control is disabled
+[2020.10.03-17.19.12:938][  0]LogUnrealEdMisc: Loading editor; pre map load, took 23.239
+[2020.10.03-17.19.12:939][  0]LightingResults: New page: Lighting Build
+[2020.10.03-17.19.12:942][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.19.12:942][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.19.12:942][  0]MapCheck: New page: Map Check
+[2020.10.03-17.19.12:942][  0]LightingResults: New page: Lighting Build
+[2020.10.03-17.19.12:973][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263D04D7C00), frame # 0
+[2020.10.03-17.19.12:973][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D04DFB00), frame # 0
+[2020.10.03-17.19.12:974][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.03-17.19.13:500][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.19.13:500][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263B893BE00), frame # 0
+[2020.10.03-17.19.13:500][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263B896A980), frame # 0
+[2020.10.03-17.19.13:531][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.03-17.19.13:533][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.10.03-17.19.13:547][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.10.03-17.19.13:548][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.03-17.19.13:548][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.404ms to complete.
+[2020.10.03-17.19.13:548][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.610
+[2020.10.03-17.19.13:564][  0]LogUnrealEdMisc: Total Editor Startup Time, took 23.865
+[2020.10.03-17.19.13:732][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.19.13:739][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.19.13:745][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.19.13:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.19.13:779][  0]LogCollectionManager: Loaded 0 collections in 0.000709 seconds
+[2020.10.03-17.19.13:808][  0]LogFileCache: Scanning file cache for directory 'E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Collections/' took 0.00s
+[2020.10.03-17.19.13:808][  0]LogFileCache: Scanning file cache for directory 'E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Content/Developers/balaj/Collections/' took 0.00s
+[2020.10.03-17.19.13:808][  0]LogFileCache: Scanning file cache for directory 'E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Content/Collections/' took 0.00s
+[2020.10.03-17.19.13:808][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3433 classes and 823 folders.
+[2020.10.03-17.19.13:812][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.03-17.19.14:224][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.03-17.19.14:229][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.10.03-17.19.14:278][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.10.03-17.19.14:473][  0]LogSlate: Took 0.009441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.03-17.19.14:482][  0]LogSlate: Took 0.007443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.03-17.19.14:496][  0]LogSlate: Took 0.007823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.03-17.19.14:644][  0]LogRenderer: Reallocating scene render targets to support 1000x548 Format 10 NumSamples 1 (Frame:1).
+[2020.10.03-17.19.14:704][  0]LogSlate: Took 0.005392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.03-17.19.14:758][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.03-17.19.14:758][  0]LogLoad: (Engine Initialization) Total time: 25.06 seconds
+[2020.10.03-17.19.14:758][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.03-17.19.14:796][  0]LogAssetRegistry: Asset discovery search completed in 12.2542 seconds
+[2020.10.03-17.19.14:798][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.10.03-17.19.14:803][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.03-17.19.14:856][  1]LogRenderer: Reallocating scene render targets to support 1000x564 Format 10 NumSamples 1 (Frame:3).
+[2020.10.03-17.21.58:517][331]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.03-17.21.58:536][331]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/DungeonGenerator.TileBoardGeneratorComponent
+[2020.10.03-17.27.42:530][346]LogVSAccessor: Warning: Couldn't save all documents
+[2020.10.03-17.27.42:536][346]Candidate modules for hot reload:
+[2020.10.03-17.27.42:536][346]  DungeonGenerator
+[2020.10.03-17.27.42:536][346]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,7075 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.27.42:540][346]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.28.29:446][948]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:28:29 AM
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Creating makefile for DungeonGeneratorEditor (game project files are newer)
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Parsing headers for DungeonGeneratorEditor
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   Running UnrealHeaderTool "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\DungeonGenerator.uproject" "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\DungeonGeneratorEditor\Development\DungeonGeneratorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\balaj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Reflection code generated for DungeonGeneratorEditor in 21.294312 seconds
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Building 18 actions with 16 processes...
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [1/18] SharedPCH.Engine.ShadowErrors.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [2/18] RoomComponent.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [3/18] TileBoardComponent.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [4/18] TileComponent.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [5/18] RoomBP.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [6/18] DungeonGenerator.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [7/18] DoorComponent.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [8/18] DoorComponent.gen.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [9/18] DungeonGenerator.init.gen.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [10/18] RoomBP.gen.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [11/18] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [12/18] TileComponent.gen.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [13/18] RoomComponent.gen.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [14/18] TileBoardComponent.gen.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [15/18] TileBoardGeneratorComponent.gen.cpp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [16/18] UE4Editor-DungeonGenerator-7075.lib
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-7075.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-7075.exp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [17/18] UE4Editor-DungeonGenerator-7075.dll
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-7075.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-7075.suppressed.exp
+[2020.10.03-17.28.29:447][948]CompilerResultsLog:   [18/18] DungeonGeneratorEditor.target
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Total time in Parallel executor: 23.15 seconds
+[2020.10.03-17.28.29:447][948]CompilerResultsLog: Total execution time: 46.81 seconds
+[2020.10.03-17.28.29:447][948]LogMainFrame: MainFrame: Module compiling took 46.917 seconds
+[2020.10.03-17.28.29:466][948]LogClass: Could not find existing class RoomComponent in package /Script/DungeonGenerator for HotReload, assuming new class
+[2020.10.03-17.28.29:469][948]LogHotReload: Re-instancing RoomComponent after hot-reload.
+[2020.10.03-17.28.29:475][948]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.28.29:477][948]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.28.29:534][948]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.28.29:535][948]Display: HotReload took 47.0s.
+[2020.10.03-17.28.33:614][432]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.28.33:639][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.28.33:639][432]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:28:33 AM)
+[2020.10.03-17.28.33:644][432]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.03-17.28.33:646][432]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.03-17.28.33:647][432]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.28.33:671][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023499s)
+[2020.10.03-17.28.33:673][432]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.28.33:673][432]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263FA162200), frame # 21432
+[2020.10.03-17.28.33:673][432]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D10F4E00), frame # 21432
+[2020.10.03-17.28.33:674][432]LogPlayLevel: PIE: World Init took: (0.002623s)
+[2020.10.03-17.28.33:674][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026566s)
+[2020.10.03-17.28.33:689][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.03-17.28.33:692][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.28.33:692][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.28.33:692][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.28.33:692][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.28.33:692][432]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.28.33:692][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.28.33:692][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.28.33:692][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.28.33:693][432]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.28.33:693][432]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.28.33:698][432]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.28.33:698][432]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.28.33:719][432]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.28.33:720][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.28.33:720][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.28.33:720][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.28.33:721][432]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.28.33:722][432]LogInit: FAudioDevice initialized.
+[2020.10.03-17.28.33:740][432]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.28.33:748][432]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.28.33
+[2020.10.03-17.28.33:749][432]LogWorld: Bringing up level for play took: 0.003392
+[2020.10.03-17.28.33:750][432]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.10.03-17.28.33:784][432]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.10.03-17.28.33:796][432]LogTemp: Warning: 71
+[2020.10.03-17.28.33:800][432]LogTemp: Warning: 71
+[2020.10.03-17.28.33:802][432]PIE: Server logged in
+[2020.10.03-17.28.33:804][432]PIE: Play in editor total start time 0.172 seconds.
+[2020.10.03-17.28.38:355][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.28.38:355][924]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.28.38:356][924]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.28.38:357][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.28.38:368][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.28.38:370][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.28.38:396][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.28.38:397][924]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D10F4E00), frame # 21924
+[2020.10.03-17.28.38:397][924]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263FA162200), frame # 21924
+[2020.10.03-17.28.38:399][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.03-17.28.38:429][926]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.10.03-17.33.07:862][847]LogVSAccessor: Warning: Couldn't save all documents
+[2020.10.03-17.33.07:865][847]Candidate modules for hot reload:
+[2020.10.03-17.33.07:865][847]  DungeonGenerator
+[2020.10.03-17.33.07:865][847]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,6899 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.33.07:869][847]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.33.37:929][410]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:33:37 AM
+[2020.10.03-17.33.37:929][410]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.33.37:929][410]CompilerResultsLog: Parsing headers for DungeonGeneratorEditor
+[2020.10.03-17.33.37:929][410]CompilerResultsLog:   Running UnrealHeaderTool "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\DungeonGenerator.uproject" "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\DungeonGeneratorEditor\Development\DungeonGeneratorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\balaj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.03-17.33.37:929][410]CompilerResultsLog: Reflection code generated for DungeonGeneratorEditor in 23.1177172 seconds
+[2020.10.03-17.33.37:929][410]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.33.37:929][410]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.33.37:929][410]CompilerResultsLog: Building 5 actions with 16 processes...
+[2020.10.03-17.33.37:929][410]CompilerResultsLog:   [1/5] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.33.37:929][410]CompilerResultsLog:   [2/5] TileBoardGeneratorComponent.gen.cpp
+[2020.10.03-17.33.37:929][410]CompilerResultsLog:   [3/5] UE4Editor-DungeonGenerator-6899.lib
+[2020.10.03-17.33.37:929][410]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6899.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6899.exp
+[2020.10.03-17.33.37:929][410]CompilerResultsLog:   [4/5] UE4Editor-DungeonGenerator-6899.dll
+[2020.10.03-17.33.37:929][410]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6899.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6899.suppressed.exp
+[2020.10.03-17.33.37:930][410]CompilerResultsLog:   [5/5] DungeonGeneratorEditor.target
+[2020.10.03-17.33.37:930][410]CompilerResultsLog: Total time in Parallel executor: 6.03 seconds
+[2020.10.03-17.33.37:930][410]CompilerResultsLog: Total execution time: 29.97 seconds
+[2020.10.03-17.33.37:930][410]LogMainFrame: MainFrame: Module compiling took 30.068 seconds
+[2020.10.03-17.33.37:947][410]LogClass: Could not find existing class TileBoardGeneratorComponent in package /Script/DungeonGenerator for HotReload, assuming new class
+[2020.10.03-17.33.37:950][410]LogHotReload: Re-instancing TileBoardGeneratorComponent after hot-reload.
+[2020.10.03-17.33.37:953][410]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.33.37:954][410]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.33.37:991][410]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.33.37:991][410]Display: HotReload took 30.1s.
+[2020.10.03-17.33.41:051][769]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.33.41:066][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.33.41:066][769]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:33:41 AM)
+[2020.10.03-17.33.41:087][769]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.33.41:096][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009785s)
+[2020.10.03-17.33.41:097][769]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.33.41:098][769]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263E1808A00), frame # 26769
+[2020.10.03-17.33.41:098][769]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026389E682C0), frame # 26769
+[2020.10.03-17.33.41:098][769]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2020.10.03-17.33.41:098][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011269s)
+[2020.10.03-17.33.41:114][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.03-17.33.41:115][769]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.33.41:115][769]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.33.41:115][769]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.33.41:115][769]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.33.41:115][769]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.33.41:115][769]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.33.41:115][769]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.33.41:116][769]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.33.41:116][769]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.33.41:116][769]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.33.41:120][769]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.33.41:120][769]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.33.41:137][769]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.33.41:137][769]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.33.41:137][769]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.33.41:137][769]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.33.41:138][769]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.33.41:149][769]LogInit: FAudioDevice initialized.
+[2020.10.03-17.33.41:154][769]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.33.41:155][769]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.33.41
+[2020.10.03-17.33.41:155][769]LogWorld: Bringing up level for play took: 0.001108
+[2020.10.03-17.33.41:155][769]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.10.03-17.33.41:167][769]LogTemp: Warning: 71
+[2020.10.03-17.33.41:172][769]LogTemp: Warning: 71
+[2020.10.03-17.33.41:176][769]LogTemp: Warning: 71
+[2020.10.03-17.33.41:181][769]LogTemp: Warning: 71
+[2020.10.03-17.33.41:186][769]LogTemp: Warning: 71
+[2020.10.03-17.33.41:191][769]LogTemp: Warning: 71
+[2020.10.03-17.33.41:191][769]PIE: Server logged in
+[2020.10.03-17.33.41:192][769]PIE: Play in editor total start time 0.128 seconds.
+[2020.10.03-17.34.06:562][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.03-17.34.14:564][165]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.10.03-17.34.20:653][827]LogEditorViewport: Clicking on Actor (LMB): WallBP_C (WallBP18)
+[2020.10.03-17.34.23:511][128]LogSlate: Took 0.006103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.03-17.34.41:755][962]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.10.03-17.34.41:816][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.34.41:816][962]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.34.41:817][962]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.34.41:818][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.34.41:828][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.34.41:830][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.34.41:855][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.34.41:857][962]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026389E682C0), frame # 31962
+[2020.10.03-17.34.41:857][962]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263E1808A00), frame # 31962
+[2020.10.03-17.34.41:858][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.03-17.34.41:886][963]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.10.03-17.34.42:334][ 12]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.34.42:347][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.34.42:347][ 12]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:34:42 AM)
+[2020.10.03-17.34.42:347][ 12]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.34.42:355][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007913s)
+[2020.10.03-17.34.42:356][ 12]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.34.42:356][ 12]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263ECC8BC00), frame # 32012
+[2020.10.03-17.34.42:356][ 12]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D0954E00), frame # 32012
+[2020.10.03-17.34.42:356][ 12]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2020.10.03-17.34.42:356][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009360s)
+[2020.10.03-17.34.42:366][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.34.42:368][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.34.42:368][ 12]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.34.42:368][ 12]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.34.42:372][ 12]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.34.42:372][ 12]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.34.42:386][ 12]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.34.42:387][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.34.42:387][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.34.42:387][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.34.42:387][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.34.42:398][ 12]LogInit: FAudioDevice initialized.
+[2020.10.03-17.34.42:405][ 12]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.34.42:406][ 12]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.34.42
+[2020.10.03-17.34.42:406][ 12]LogWorld: Bringing up level for play took: 0.001030
+[2020.10.03-17.34.42:407][ 12]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.10.03-17.34.42:413][ 12]LogTemp: Warning: 71
+[2020.10.03-17.34.42:417][ 12]LogTemp: Warning: 71
+[2020.10.03-17.34.42:422][ 12]LogTemp: Warning: 71
+[2020.10.03-17.34.42:426][ 12]LogTemp: Warning: 71
+[2020.10.03-17.34.42:431][ 12]LogTemp: Warning: 71
+[2020.10.03-17.34.42:436][ 12]LogTemp: Warning: 71
+[2020.10.03-17.34.42:436][ 12]PIE: Server logged in
+[2020.10.03-17.34.42:437][ 12]PIE: Play in editor total start time 0.09 seconds.
+[2020.10.03-17.35.12:694][900]Cmd: SELECT NONE
+[2020.10.03-17.35.13:121][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.35.13:121][939]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.35.13:121][939]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.35.13:123][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.35.13:131][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.35.13:132][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.35.13:142][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.35.13:157][939]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D0954E00), frame # 33939
+[2020.10.03-17.35.13:158][939]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263ECC8BC00), frame # 33939
+[2020.10.03-17.35.13:158][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.03-17.35.13:204][941]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.10.03-17.38.23:219][779]LogVSAccessor: Warning: Couldn't save all documents
+[2020.10.03-17.38.23:224][779]Candidate modules for hot reload:
+[2020.10.03-17.38.23:224][779]  DungeonGenerator
+[2020.10.03-17.38.23:224][779]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,3272 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.38.23:228][779]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.38.25:460][ 24]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:38:25 AM
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog:   [1/4] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog:   [2/4] UE4Editor-DungeonGenerator-3272.lib
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3272.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3272.exp
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog:   [3/4] UE4Editor-DungeonGenerator-3272.dll
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3272.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3272.suppressed.exp
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog:   [4/4] DungeonGeneratorEditor.target
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog: Total time in Parallel executor: 1.54 seconds
+[2020.10.03-17.38.25:461][ 24]CompilerResultsLog: Total execution time: 2.13 seconds
+[2020.10.03-17.38.25:461][ 24]LogMainFrame: MainFrame: Module compiling took 2.241 seconds
+[2020.10.03-17.38.25:490][ 24]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.38.25:490][ 24]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.38.25:528][ 24]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.38.25:528][ 24]Display: HotReload took  2.3s.
+[2020.10.03-17.38.28:581][192]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.38.28:597][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.38.28:597][192]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:38:28 AM)
+[2020.10.03-17.38.28:597][192]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.38.28:606][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008956s)
+[2020.10.03-17.38.28:607][192]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.38.28:608][192]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263ED4F4A00), frame # 35192
+[2020.10.03-17.38.28:608][192]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D0955940), frame # 35192
+[2020.10.03-17.38.28:608][192]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2020.10.03-17.38.28:608][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010529s)
+[2020.10.03-17.38.28:621][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.03-17.38.28:623][192]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.38.28:623][192]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.38.28:623][192]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.38.28:623][192]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.38.28:624][192]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.38.28:624][192]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.38.28:624][192]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.38.28:624][192]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.38.28:624][192]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.38.28:624][192]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.38.28:628][192]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.38.28:628][192]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.38.28:642][192]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.38.28:643][192]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.38.28:643][192]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.38.28:643][192]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.38.28:643][192]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.38.28:654][192]LogInit: FAudioDevice initialized.
+[2020.10.03-17.38.28:663][192]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.38.28:665][192]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.38.28
+[2020.10.03-17.38.28:665][192]LogWorld: Bringing up level for play took: 0.001279
+[2020.10.03-17.38.28:665][192]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.10.03-17.38.28:672][192]LogTemp: Warning: 71
+[2020.10.03-17.38.28:677][192]LogTemp: Warning: 71
+[2020.10.03-17.38.28:677][192]LogTemp: Warning: 0
+[2020.10.03-17.38.28:681][192]LogTemp: Warning: 71
+[2020.10.03-17.38.28:681][192]LogTemp: Warning: 0
+[2020.10.03-17.38.28:686][192]LogTemp: Warning: 71
+[2020.10.03-17.38.28:686][192]LogTemp: Warning: 0
+[2020.10.03-17.38.28:691][192]LogTemp: Warning: 71
+[2020.10.03-17.38.28:691][192]LogTemp: Warning: 0
+[2020.10.03-17.38.28:695][192]LogTemp: Warning: 71
+[2020.10.03-17.38.28:695][192]LogTemp: Warning: 0
+[2020.10.03-17.38.28:696][192]PIE: Server logged in
+[2020.10.03-17.38.28:696][192]PIE: Play in editor total start time 0.102 seconds.
+[2020.10.03-17.38.30:652][385]LogSlate: Took 0.006906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.03-17.38.35:119][859]Cmd: SELECT NONE
+[2020.10.03-17.38.36:831][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.38.36:831][ 47]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.38.36:831][ 47]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.38.36:832][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.38.36:842][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.38.36:843][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.38.36:869][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.38.36:870][ 47]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D0955940), frame # 36047
+[2020.10.03-17.38.36:870][ 47]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263ED4F4A00), frame # 36047
+[2020.10.03-17.38.36:871][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.10.03-17.38.36:900][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.10.03-17.38.41:948][221]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.38.41:962][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.38.41:962][221]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:38:41 AM)
+[2020.10.03-17.38.41:962][221]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.38.41:970][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007793s)
+[2020.10.03-17.38.41:971][221]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.38.41:971][221]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026410448800), frame # 36221
+[2020.10.03-17.38.41:971][221]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263E12AD440), frame # 36221
+[2020.10.03-17.38.41:971][221]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2020.10.03-17.38.41:971][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009098s)
+[2020.10.03-17.38.41:983][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.03-17.38.41:985][221]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.38.41:985][221]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.38.41:985][221]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.38.41:985][221]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.38.41:985][221]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.38.41:985][221]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.38.41:985][221]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.38.41:985][221]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.38.41:986][221]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.38.41:986][221]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.38.41:989][221]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.38.41:989][221]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.38.42:004][221]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.38.42:004][221]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.38.42:004][221]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.38.42:004][221]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.38.42:004][221]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.38.42:016][221]LogInit: FAudioDevice initialized.
+[2020.10.03-17.38.42:025][221]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.38.42:026][221]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.38.42
+[2020.10.03-17.38.42:026][221]LogWorld: Bringing up level for play took: 0.001100
+[2020.10.03-17.38.42:027][221]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.10.03-17.38.42:033][221]LogTemp: Warning: 71
+[2020.10.03-17.38.42:038][221]LogTemp: Warning: 71
+[2020.10.03-17.38.42:038][221]LogTemp: Warning: 0
+[2020.10.03-17.38.42:043][221]LogTemp: Warning: 71
+[2020.10.03-17.38.42:043][221]LogTemp: Warning: 0
+[2020.10.03-17.38.42:047][221]LogTemp: Warning: 71
+[2020.10.03-17.38.42:047][221]LogTemp: Warning: 0
+[2020.10.03-17.38.42:052][221]LogTemp: Warning: 71
+[2020.10.03-17.38.42:052][221]LogTemp: Warning: 0
+[2020.10.03-17.38.42:057][221]LogTemp: Warning: 71
+[2020.10.03-17.38.42:057][221]LogTemp: Warning: 0
+[2020.10.03-17.38.42:058][221]PIE: Server logged in
+[2020.10.03-17.38.42:058][221]PIE: Play in editor total start time 0.097 seconds.
+[2020.10.03-17.38.44:402][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.38.44:402][461]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.38.44:402][461]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.38.44:404][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.38.44:408][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.38.44:409][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.38.44:420][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.38.44:434][461]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263E12AD440), frame # 36461
+[2020.10.03-17.38.44:434][461]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026410448800), frame # 36461
+[2020.10.03-17.38.44:435][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.03-17.38.44:483][465]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.10.03-17.38.44:991][523]LogVSAccessor: Warning: Couldn't save all documents
+[2020.10.03-17.38.44:994][523]Candidate modules for hot reload:
+[2020.10.03-17.38.44:994][523]  DungeonGenerator
+[2020.10.03-17.38.44:994][523]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,3694 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.38.44:997][523]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.38.47:015][721]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:38:47 AM
+[2020.10.03-17.38.47:015][721]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.38.47:015][721]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.38.47:015][721]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.38.47:015][721]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.10.03-17.38.47:015][721]CompilerResultsLog:   [1/4] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.38.47:015][721]CompilerResultsLog:   [2/4] UE4Editor-DungeonGenerator-3694.lib
+[2020.10.03-17.38.47:015][721]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3694.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3694.exp
+[2020.10.03-17.38.47:015][721]CompilerResultsLog:   [3/4] UE4Editor-DungeonGenerator-3694.dll
+[2020.10.03-17.38.47:015][721]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3694.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3694.suppressed.exp
+[2020.10.03-17.38.47:015][721]CompilerResultsLog:   [4/4] DungeonGeneratorEditor.target
+[2020.10.03-17.38.47:015][721]CompilerResultsLog: Total time in Parallel executor: 1.43 seconds
+[2020.10.03-17.38.47:015][721]CompilerResultsLog: Total execution time: 1.93 seconds
+[2020.10.03-17.38.47:015][721]LogMainFrame: MainFrame: Module compiling took 2.024 seconds
+[2020.10.03-17.38.47:034][721]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.38.47:035][721]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.38.47:078][721]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.38.47:078][721]Display: HotReload took  2.1s.
+[2020.10.03-17.42.46:220][798]LogVSAccessor: Warning: Couldn't save all documents
+[2020.10.03-17.42.46:223][798]Candidate modules for hot reload:
+[2020.10.03-17.42.46:223][798]  DungeonGenerator
+[2020.10.03-17.42.46:223][798]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,6722 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.42.46:226][798]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:42:48 AM
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog:   [1/4] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog:   [2/4] UE4Editor-DungeonGenerator-6722.lib
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6722.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6722.exp
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog:   [3/4] UE4Editor-DungeonGenerator-6722.dll
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6722.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-6722.suppressed.exp
+[2020.10.03-17.42.48:258][ 20]CompilerResultsLog:   [4/4] DungeonGeneratorEditor.target
+[2020.10.03-17.42.48:259][ 20]CompilerResultsLog: Total time in Parallel executor: 1.44 seconds
+[2020.10.03-17.42.48:259][ 20]CompilerResultsLog: Total execution time: 1.94 seconds
+[2020.10.03-17.42.48:259][ 20]LogMainFrame: MainFrame: Module compiling took 2.039 seconds
+[2020.10.03-17.42.48:287][ 20]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.42.48:288][ 20]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.42.48:332][ 20]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.42.48:332][ 20]Display: HotReload took  2.1s.
+[2020.10.03-17.42.49:747][189]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.42.49:763][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.42.49:763][189]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:42:49 AM)
+[2020.10.03-17.42.49:763][189]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.42.49:771][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008311s)
+[2020.10.03-17.42.49:772][189]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.42.49:772][189]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263FA665E00), frame # 47189
+[2020.10.03-17.42.49:772][189]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D0943740), frame # 47189
+[2020.10.03-17.42.49:773][189]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2020.10.03-17.42.49:773][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009555s)
+[2020.10.03-17.42.49:784][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.03-17.42.49:787][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.42.49:787][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.42.49:787][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.42.49:787][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.42.49:787][189]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.42.49:787][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.42.49:787][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.42.49:787][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.42.49:788][189]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.42.49:788][189]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.42.49:792][189]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.42.49:792][189]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.42.49:808][189]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.42.49:809][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.42.49:809][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.42.49:809][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.42.49:809][189]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.42.49:820][189]LogInit: FAudioDevice initialized.
+[2020.10.03-17.42.49:832][189]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.42.49:833][189]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.42.49
+[2020.10.03-17.42.49:833][189]LogWorld: Bringing up level for play took: 0.001179
+[2020.10.03-17.42.49:834][189]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.10.03-17.42.49:841][189]LogTemp: Warning: 71
+[2020.10.03-17.42.49:845][189]LogTemp: Warning: 71
+[2020.10.03-17.42.49:845][189]LogTemp: Warning: 0
+[2020.10.03-17.42.49:850][189]LogTemp: Warning: 71
+[2020.10.03-17.42.49:850][189]LogTemp: Warning: 0
+[2020.10.03-17.42.49:855][189]LogTemp: Warning: 71
+[2020.10.03-17.42.49:855][189]LogTemp: Warning: 0
+[2020.10.03-17.42.49:860][189]LogTemp: Warning: 71
+[2020.10.03-17.42.49:860][189]LogTemp: Warning: 0
+[2020.10.03-17.42.49:864][189]LogTemp: Warning: 71
+[2020.10.03-17.42.49:865][189]LogTemp: Warning: 0
+[2020.10.03-17.42.49:865][189]PIE: Server logged in
+[2020.10.03-17.42.49:865][189]PIE: Play in editor total start time 0.105 seconds.
+[2020.10.03-17.43.02:541][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.43.02:541][858]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.43.02:541][858]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.43.02:542][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.43.02:555][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.43.02:556][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.43.02:583][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.43.02:585][858]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D0943740), frame # 47858
+[2020.10.03-17.43.02:585][858]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263FA665E00), frame # 47858
+[2020.10.03-17.43.02:586][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.03-17.43.02:640][860]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.10.03-17.43.27:576][276]LogVSAccessor: Warning: Couldn't save all documents
+[2020.10.03-17.43.27:579][276]Candidate modules for hot reload:
+[2020.10.03-17.43.27:579][276]  DungeonGenerator
+[2020.10.03-17.43.27:579][276]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,3697 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.43.27:582][276]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.43.29:683][505]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:43:29 AM
+[2020.10.03-17.43.29:683][505]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.43.29:683][505]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.43.29:683][505]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.43.29:683][505]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.10.03-17.43.29:683][505]CompilerResultsLog:   [1/4] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.43.29:683][505]CompilerResultsLog:   [2/4] UE4Editor-DungeonGenerator-3697.lib
+[2020.10.03-17.43.29:683][505]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3697.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3697.exp
+[2020.10.03-17.43.29:683][505]CompilerResultsLog:   [3/4] UE4Editor-DungeonGenerator-3697.dll
+[2020.10.03-17.43.29:683][505]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3697.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3697.suppressed.exp
+[2020.10.03-17.43.29:683][505]CompilerResultsLog:   [4/4] DungeonGeneratorEditor.target
+[2020.10.03-17.43.29:683][505]CompilerResultsLog: Total time in Parallel executor: 1.51 seconds
+[2020.10.03-17.43.29:683][505]CompilerResultsLog: Total execution time: 2.02 seconds
+[2020.10.03-17.43.29:683][505]LogMainFrame: MainFrame: Module compiling took 2.107 seconds
+[2020.10.03-17.43.29:703][505]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.43.29:703][505]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.43.29:750][505]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.43.29:750][505]Display: HotReload took  2.2s.
+[2020.10.03-17.43.31:998][773]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.43.32:013][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.43.32:013][773]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:43:32 AM)
+[2020.10.03-17.43.32:013][773]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.43.32:021][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007471s)
+[2020.10.03-17.43.32:022][773]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.43.32:022][773]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002640A3EAC00), frame # 48773
+[2020.10.03-17.43.32:022][773]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D09439C0), frame # 48773
+[2020.10.03-17.43.32:022][773]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2020.10.03-17.43.32:022][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.008749s)
+[2020.10.03-17.43.32:034][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.03-17.43.32:036][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.43.32:036][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.43.32:037][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.43.32:037][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.43.32:037][773]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.43.32:037][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.43.32:037][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.43.32:037][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.43.32:037][773]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.43.32:037][773]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.43.32:041][773]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.43.32:041][773]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.43.32:055][773]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.43.32:055][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.43.32:055][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.43.32:055][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.43.32:055][773]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.43.32:066][773]LogInit: FAudioDevice initialized.
+[2020.10.03-17.43.32:074][773]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.43.32:075][773]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.43.32
+[2020.10.03-17.43.32:075][773]LogWorld: Bringing up level for play took: 0.001151
+[2020.10.03-17.43.32:076][773]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.10.03-17.43.32:082][773]LogTemp: Warning: 71
+[2020.10.03-17.43.32:087][773]LogTemp: Warning: 71
+[2020.10.03-17.43.32:087][773]LogTemp: Warning: 0
+[2020.10.03-17.43.32:092][773]LogTemp: Warning: 71
+[2020.10.03-17.43.32:092][773]LogTemp: Warning: 0
+[2020.10.03-17.43.32:096][773]LogTemp: Warning: 71
+[2020.10.03-17.43.32:096][773]LogTemp: Warning: 0
+[2020.10.03-17.43.32:101][773]LogTemp: Warning: 71
+[2020.10.03-17.43.32:101][773]LogTemp: Warning: 0
+[2020.10.03-17.43.32:106][773]LogTemp: Warning: 71
+[2020.10.03-17.43.32:106][773]LogTemp: Warning: -1073741824
+[2020.10.03-17.43.32:106][773]PIE: Server logged in
+[2020.10.03-17.43.32:107][773]PIE: Play in editor total start time 0.096 seconds.
+[2020.10.03-17.45.37:403][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.45.37:403][955]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.45.37:403][955]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.45.37:405][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.45.37:409][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.45.37:410][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.45.37:433][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.45.37:435][955]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D09439C0), frame # 56955
+[2020.10.03-17.45.37:435][955]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002640A3EAC00), frame # 56955
+[2020.10.03-17.45.37:436][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.03-17.45.37:489][957]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.10.03-17.46.55:814][455]Candidate modules for hot reload:
+[2020.10.03-17.46.55:814][455]  DungeonGenerator
+[2020.10.03-17.46.55:814][455]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,8296 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.46.55:817][455]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.46.57:818][647]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:46:57 AM
+[2020.10.03-17.46.57:818][647]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.46.57:818][647]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.46.57:818][647]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.46.57:818][647]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.10.03-17.46.57:818][647]CompilerResultsLog:   [1/4] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.46.57:818][647]CompilerResultsLog:   [2/4] UE4Editor-DungeonGenerator-8296.lib
+[2020.10.03-17.46.57:818][647]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-8296.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-8296.exp
+[2020.10.03-17.46.57:818][647]CompilerResultsLog:   [3/4] UE4Editor-DungeonGenerator-8296.dll
+[2020.10.03-17.46.57:818][647]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-8296.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-8296.suppressed.exp
+[2020.10.03-17.46.57:818][647]CompilerResultsLog:   [4/4] DungeonGeneratorEditor.target
+[2020.10.03-17.46.57:818][647]CompilerResultsLog: Total time in Parallel executor: 1.42 seconds
+[2020.10.03-17.46.57:818][647]CompilerResultsLog: Total execution time: 1.91 seconds
+[2020.10.03-17.46.57:818][647]LogMainFrame: MainFrame: Module compiling took 2.010 seconds
+[2020.10.03-17.46.57:854][647]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.46.57:855][647]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.46.57:893][647]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.46.57:893][647]Display: HotReload took  2.1s.
+[2020.10.03-17.46.59:747][867]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.46.59:762][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.46.59:762][867]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:46:59 AM)
+[2020.10.03-17.46.59:762][867]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.46.59:771][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008780s)
+[2020.10.03-17.46.59:772][867]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.46.59:772][867]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263F4585200), frame # 57867
+[2020.10.03-17.46.59:772][867]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026389E68A40), frame # 57867
+[2020.10.03-17.46.59:772][867]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2020.10.03-17.46.59:772][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010162s)
+[2020.10.03-17.46.59:784][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.46.59:786][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.46.59:786][867]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.46.59:786][867]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.46.59:790][867]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.46.59:790][867]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.46.59:806][867]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.46.59:806][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.46.59:807][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.46.59:807][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.46.59:807][867]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.46.59:818][867]LogInit: FAudioDevice initialized.
+[2020.10.03-17.46.59:827][867]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.46.59:828][867]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.46.59
+[2020.10.03-17.46.59:828][867]LogWorld: Bringing up level for play took: 0.001095
+[2020.10.03-17.46.59:828][867]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.10.03-17.46.59:835][867]LogTemp: Warning: 71
+[2020.10.03-17.46.59:839][867]LogTemp: Warning: 71
+[2020.10.03-17.46.59:839][867]LogTemp: Warning: 0
+[2020.10.03-17.46.59:844][867]LogTemp: Warning: 71
+[2020.10.03-17.46.59:844][867]LogTemp: Warning: 0
+[2020.10.03-17.46.59:849][867]LogTemp: Warning: 71
+[2020.10.03-17.46.59:849][867]LogTemp: Warning: 0
+[2020.10.03-17.46.59:854][867]LogTemp: Warning: 71
+[2020.10.03-17.46.59:854][867]LogTemp: Warning: 0
+[2020.10.03-17.46.59:859][867]LogTemp: Warning: 71
+[2020.10.03-17.46.59:859][867]LogTemp: Warning: 0
+[2020.10.03-17.46.59:859][867]PIE: Server logged in
+[2020.10.03-17.46.59:860][867]PIE: Play in editor total start time 0.1 seconds.
+[2020.10.03-17.47.08:606][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.47.08:606][243]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.47.08:607][243]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.47.08:608][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.47.08:624][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.47.08:625][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.47.08:648][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.47.08:650][243]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026389E68A40), frame # 58243
+[2020.10.03-17.47.08:650][243]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263F4585200), frame # 58243
+[2020.10.03-17.47.08:651][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.03-17.47.08:701][245]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.10.03-17.47.15:878][824]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.47.15:893][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.47.15:893][824]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:47:15 AM)
+[2020.10.03-17.47.15:927][824]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.47.15:936][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008903s)
+[2020.10.03-17.47.15:937][824]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.47.15:937][824]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263ED4F5400), frame # 58824
+[2020.10.03-17.47.15:937][824]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263E12AD300), frame # 58824
+[2020.10.03-17.47.15:937][824]LogPlayLevel: PIE: World Init took: (0.001558s)
+[2020.10.03-17.47.15:937][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010654s)
+[2020.10.03-17.47.15:950][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.03-17.47.15:952][824]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.47.15:953][824]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.47.15:953][824]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.47.15:953][824]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.47.15:953][824]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.47.15:953][824]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.47.15:953][824]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.47.15:953][824]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.47.15:953][824]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.47.15:953][824]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.47.15:956][824]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.47.15:956][824]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.47.15:971][824]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.47.15:971][824]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.47.15:971][824]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.47.15:971][824]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.47.15:971][824]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.47.15:982][824]LogInit: FAudioDevice initialized.
+[2020.10.03-17.47.15:993][824]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.47.15:994][824]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.47.15
+[2020.10.03-17.47.15:994][824]LogWorld: Bringing up level for play took: 0.001058
+[2020.10.03-17.47.15:994][824]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.10.03-17.47.16:001][824]LogTemp: Warning: 71
+[2020.10.03-17.47.16:006][824]LogTemp: Warning: 71
+[2020.10.03-17.47.16:006][824]LogTemp: Warning: 0
+[2020.10.03-17.47.16:011][824]LogTemp: Warning: 71
+[2020.10.03-17.47.16:011][824]LogTemp: Warning: 0
+[2020.10.03-17.47.16:015][824]LogTemp: Warning: 71
+[2020.10.03-17.47.16:015][824]LogTemp: Warning: 0
+[2020.10.03-17.47.16:020][824]LogTemp: Warning: 71
+[2020.10.03-17.47.16:020][824]LogTemp: Warning: 0
+[2020.10.03-17.47.16:025][824]LogTemp: Warning: 71
+[2020.10.03-17.47.16:025][824]LogTemp: Warning: 0
+[2020.10.03-17.47.16:025][824]PIE: Server logged in
+[2020.10.03-17.47.16:026][824]PIE: Play in editor total start time 0.133 seconds.
+[2020.10.03-17.47.53:495][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.03-17.47.54:603][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.47.54:603][476]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.47.54:604][476]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.47.54:605][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.47.54:621][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.47.54:623][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.47.54:633][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.47.54:648][476]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263E12AD300), frame # 60476
+[2020.10.03-17.47.54:648][476]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263ED4F5400), frame # 60476
+[2020.10.03-17.47.54:649][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.10.03-17.47.54:669][477]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.10.03-17.48.07:343][707]Candidate modules for hot reload:
+[2020.10.03-17.48.07:343][707]  DungeonGenerator
+[2020.10.03-17.48.07:343][707]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,3012 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-17.48.07:346][707]Warning: Starting HotReload took  0.0s.
+[2020.10.03-17.48.09:453][776]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 5:48:09 AM
+[2020.10.03-17.48.09:453][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-17.48.09:453][776]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-17.48.09:453][776]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-17.48.09:453][776]CompilerResultsLog: Building 4 actions with 16 processes...
+[2020.10.03-17.48.09:453][776]CompilerResultsLog:   [1/4] TileBoardGeneratorComponent.cpp
+[2020.10.03-17.48.09:453][776]CompilerResultsLog:   [2/4] UE4Editor-DungeonGenerator-3012.lib
+[2020.10.03-17.48.09:453][776]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3012.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3012.exp
+[2020.10.03-17.48.09:453][776]CompilerResultsLog:   [3/4] UE4Editor-DungeonGenerator-3012.dll
+[2020.10.03-17.48.09:453][776]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3012.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3012.suppressed.exp
+[2020.10.03-17.48.09:453][776]CompilerResultsLog:   [4/4] DungeonGeneratorEditor.target
+[2020.10.03-17.48.09:453][776]CompilerResultsLog: Total time in Parallel executor: 1.33 seconds
+[2020.10.03-17.48.09:453][776]CompilerResultsLog: Total execution time: 1.86 seconds
+[2020.10.03-17.48.09:453][776]LogMainFrame: MainFrame: Module compiling took 2.113 seconds
+[2020.10.03-17.48.09:471][776]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-17.48.09:471][776]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-17.48.09:512][776]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-17.48.09:512][776]Display: HotReload took  2.2s.
+[2020.10.03-17.48.11:156][972]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.48.11:171][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.48.11:171][972]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:48:11 AM)
+[2020.10.03-17.48.11:171][972]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.48.11:180][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008242s)
+[2020.10.03-17.48.11:181][972]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.48.11:181][972]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000263F49A2200), frame # 60972
+[2020.10.03-17.48.11:181][972]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D0942D40), frame # 60972
+[2020.10.03-17.48.11:181][972]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2020.10.03-17.48.11:181][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009545s)
+[2020.10.03-17.48.11:193][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.03-17.48.11:194][972]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.48.11:194][972]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.48.11:194][972]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.48.11:194][972]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.48.11:194][972]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.48.11:194][972]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.48.11:194][972]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.48.11:194][972]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.48.11:195][972]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.48.11:195][972]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.48.11:198][972]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.48.11:198][972]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.48.11:213][972]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.48.11:213][972]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.48.11:213][972]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.48.11:213][972]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.48.11:213][972]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.48.11:225][972]LogInit: FAudioDevice initialized.
+[2020.10.03-17.48.11:229][972]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.48.11:231][972]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.48.11
+[2020.10.03-17.48.11:231][972]LogWorld: Bringing up level for play took: 0.001254
+[2020.10.03-17.48.11:231][972]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.10.03-17.48.11:238][972]LogTemp: Warning: 71
+[2020.10.03-17.48.11:243][972]LogTemp: Warning: 71
+[2020.10.03-17.48.11:243][972]LogTemp: Warning: 0
+[2020.10.03-17.48.11:248][972]LogTemp: Warning: 71
+[2020.10.03-17.48.11:248][972]LogTemp: Warning: 0
+[2020.10.03-17.48.11:252][972]LogTemp: Warning: 71
+[2020.10.03-17.48.11:252][972]LogTemp: Warning: 0
+[2020.10.03-17.48.11:257][972]LogTemp: Warning: 71
+[2020.10.03-17.48.11:257][972]LogTemp: Warning: 0
+[2020.10.03-17.48.11:262][972]LogTemp: Warning: 71
+[2020.10.03-17.48.11:262][972]LogTemp: Warning: 0
+[2020.10.03-17.48.11:262][972]PIE: Server logged in
+[2020.10.03-17.48.11:263][972]PIE: Play in editor total start time 0.094 seconds.
+[2020.10.03-17.48.36:890][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.48.36:890][959]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.48.36:890][959]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.48.36:891][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.48.36:900][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.48.36:901][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.48.36:924][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.48.36:926][959]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D0942D40), frame # 62959
+[2020.10.03-17.48.36:926][959]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000263F49A2200), frame # 62959
+[2020.10.03-17.48.36:926][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.03-17.48.36:973][961]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.10.03-17.48.39:349][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.03-17.48.50:438][530]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-17.48.50:452][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-17.48.50:452][530]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 5:48:50 AM)
+[2020.10.03-17.48.50:490][530]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.48.50:500][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009080s)
+[2020.10.03-17.48.50:501][530]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-17.48.50:501][530]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002640A308A00), frame # 64530
+[2020.10.03-17.48.50:501][530]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D0943100), frame # 64530
+[2020.10.03-17.48.50:501][530]LogPlayLevel: PIE: World Init took: (0.001637s)
+[2020.10.03-17.48.50:501][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010919s)
+[2020.10.03-17.48.50:514][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.03-17.48.50:516][530]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-17.48.50:516][530]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-17.48.50:516][530]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-17.48.50:516][530]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-17.48.50:516][530]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-17.48.50:516][530]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-17.48.50:517][530]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-17.48.50:517][530]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-17.48.50:517][530]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-17.48.50:517][530]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-17.48.50:520][530]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-17.48.50:520][530]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-17.48.50:535][530]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-17.48.50:536][530]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-17.48.50:536][530]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-17.48.50:536][530]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-17.48.50:536][530]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-17.48.50:547][530]LogInit: FAudioDevice initialized.
+[2020.10.03-17.48.50:554][530]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-17.48.50:555][530]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-11.48.50
+[2020.10.03-17.48.50:555][530]LogWorld: Bringing up level for play took: 0.001078
+[2020.10.03-17.48.50:555][530]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.10.03-17.48.50:562][530]LogTemp: Warning: 71
+[2020.10.03-17.48.50:567][530]LogTemp: Warning: 71
+[2020.10.03-17.48.50:567][530]LogTemp: Warning: 0
+[2020.10.03-17.48.50:571][530]LogTemp: Warning: 71
+[2020.10.03-17.48.50:571][530]LogTemp: Warning: 0
+[2020.10.03-17.48.50:576][530]LogTemp: Warning: 71
+[2020.10.03-17.48.50:576][530]LogTemp: Warning: 0
+[2020.10.03-17.48.50:581][530]LogTemp: Warning: 71
+[2020.10.03-17.48.50:581][530]LogTemp: Warning: 0
+[2020.10.03-17.48.50:585][530]LogTemp: Warning: 71
+[2020.10.03-17.48.50:585][530]LogTemp: Warning: 0
+[2020.10.03-17.48.50:586][530]PIE: Server logged in
+[2020.10.03-17.48.50:586][530]PIE: Play in editor total start time 0.135 seconds.
+[2020.10.03-17.48.52:233][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.48.52:233][705]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-17.48.52:233][705]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-17.48.52:234][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.48.52:245][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-17.48.52:247][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-17.48.52:258][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-17.48.52:273][705]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D0943100), frame # 64705
+[2020.10.03-17.48.52:273][705]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002640A308A00), frame # 64705
+[2020.10.03-17.48.52:274][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.03-17.48.52:317][707]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.10.03-17.54.35:098][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.03-17.54.35:151][827]LogSavePackage: Moving '../../../../../GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/TopDownExampleMap_Auto1ED6D0AE645278F2E3ED69D8727EF6663.tmp' to '../../../../../GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2020.10.03-17.54.35:158][827]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.071
+[2020.10.03-17.54.35:158][827]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.071
+[2020.10.03-18.09.55:312][988]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-18.09.55:327][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-18.09.55:327][988]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 6:09:55 AM)
+[2020.10.03-18.09.55:327][988]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-18.09.55:336][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009334s)
+[2020.10.03-18.09.55:338][988]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-18.09.55:338][988]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002640E202200), frame # 69988
+[2020.10.03-18.09.55:338][988]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263D10F6AC0), frame # 69988
+[2020.10.03-18.09.55:338][988]LogPlayLevel: PIE: World Init took: (0.001544s)
+[2020.10.03-18.09.55:338][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011009s)
+[2020.10.03-18.09.55:351][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.10.03-18.09.55:353][988]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-18.09.55:354][988]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-18.09.55:354][988]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-18.09.55:354][988]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-18.09.55:354][988]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-18.09.55:354][988]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-18.09.55:354][988]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-18.09.55:354][988]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-18.09.55:354][988]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-18.09.55:354][988]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-18.09.55:358][988]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-18.09.55:358][988]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-18.09.55:375][988]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-18.09.55:375][988]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-18.09.55:375][988]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-18.09.55:375][988]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-18.09.55:376][988]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-18.09.55:387][988]LogInit: FAudioDevice initialized.
+[2020.10.03-18.09.55:395][988]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-18.09.55:397][988]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-12.09.55
+[2020.10.03-18.09.55:397][988]LogWorld: Bringing up level for play took: 0.001473
+[2020.10.03-18.09.55:397][988]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.10.03-18.09.55:404][988]LogTemp: Warning: 71
+[2020.10.03-18.09.55:409][988]LogTemp: Warning: 71
+[2020.10.03-18.09.55:409][988]LogTemp: Warning: 0
+[2020.10.03-18.09.55:413][988]LogTemp: Warning: 71
+[2020.10.03-18.09.55:413][988]LogTemp: Warning: 0
+[2020.10.03-18.09.55:418][988]LogTemp: Warning: 71
+[2020.10.03-18.09.55:418][988]LogTemp: Warning: 0
+[2020.10.03-18.09.55:423][988]LogTemp: Warning: 71
+[2020.10.03-18.09.55:423][988]LogTemp: Warning: 0
+[2020.10.03-18.09.55:428][988]LogTemp: Warning: 71
+[2020.10.03-18.09.55:428][988]LogTemp: Warning: 0
+[2020.10.03-18.09.55:428][988]PIE: Server logged in
+[2020.10.03-18.09.55:429][988]PIE: Play in editor total start time 0.102 seconds.
+[2020.10.03-18.10.01:542][570]LogEditorViewport: Clicking on Actor (LMB): WallBP_C (WallBP29)
+[2020.10.03-18.10.02:260][607]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP6)
+[2020.10.03-18.10.03:771][686]LogEditorViewport: Clicking on Actor (LMB): WallBP_C (WallBP22)
+[2020.10.03-18.10.35:237][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.03-18.10.42:083][413]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP9)
+[2020.10.03-18.10.55:137][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-18.10.55:137][387]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-18.10.55:138][387]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-18.10.55:139][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-18.10.55:143][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-18.10.55:144][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-18.10.55:154][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-18.10.55:170][387]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263D10F6AC0), frame # 74387
+[2020.10.03-18.10.55:170][387]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002640E202200), frame # 74387
+[2020.10.03-18.10.55:171][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.03-18.10.55:222][389]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.10.03-18.11.00:848][516]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-18.11.00:862][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-18.11.00:863][516]PIE: New page: PIE session: TopDownExampleMap (Oct 3, 2020, 6:11:00 AM)
+[2020.10.03-18.11.00:863][516]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-18.11.00:871][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008746s)
+[2020.10.03-18.11.00:872][516]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.03-18.11.00:872][516]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002640E203400), frame # 74516
+[2020.10.03-18.11.00:873][516]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000263C68D4A40), frame # 74516
+[2020.10.03-18.11.00:873][516]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2020.10.03-18.11.00:873][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010209s)
+[2020.10.03-18.11.00:887][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-18.11.00:888][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-18.11.00:888][516]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-18.11.00:888][516]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-18.11.00:892][516]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-18.11.00:892][516]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-18.11.00:908][516]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.10.03-18.11.00:908][516]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-18.11.00:908][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-18.11.00:908][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-18.11.00:909][516]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-18.11.00:921][516]LogInit: FAudioDevice initialized.
+[2020.10.03-18.11.00:927][516]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.10.03-18.11.00:928][516]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.03-12.11.00
+[2020.10.03-18.11.00:929][516]LogWorld: Bringing up level for play took: 0.001192
+[2020.10.03-18.11.00:929][516]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.10.03-18.11.00:935][516]LogTemp: Warning: 71
+[2020.10.03-18.11.00:940][516]LogTemp: Warning: 71
+[2020.10.03-18.11.00:940][516]LogTemp: Warning: 0
+[2020.10.03-18.11.00:944][516]LogTemp: Warning: 71
+[2020.10.03-18.11.00:944][516]LogTemp: Warning: 0
+[2020.10.03-18.11.00:949][516]LogTemp: Warning: 71
+[2020.10.03-18.11.00:949][516]LogTemp: Warning: 0
+[2020.10.03-18.11.00:954][516]LogTemp: Warning: 71
+[2020.10.03-18.11.00:954][516]LogTemp: Warning: 0
+[2020.10.03-18.11.00:958][516]LogTemp: Warning: 71
+[2020.10.03-18.11.00:958][516]LogTemp: Warning: 0
+[2020.10.03-18.11.00:959][516]PIE: Server logged in
+[2020.10.03-18.11.00:959][516]PIE: Play in editor total start time 0.098 seconds.
+[2020.10.03-18.11.05:200][927]LogEditorViewport: Clicking on Actor (LMB): WallBP_C (WallBP38)
+[2020.10.03-18.11.39:410][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.03-18.11.39:524][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-18.11.39:524][822]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.03-18.11.39:525][822]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-18.11.39:527][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-18.11.39:541][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-18.11.39:543][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-18.11.39:575][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-18.11.39:577][822]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000263C68D4A40), frame # 75822
+[2020.10.03-18.11.39:577][822]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002640E203400), frame # 75822
+[2020.10.03-18.11.39:579][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.10.03-18.11.39:612][823]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.10.03-18.11.40:090][861]Candidate modules for hot reload:
+[2020.10.03-18.11.40:090][861]  DungeonGenerator
+[2020.10.03-18.11.40:090][861]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,1726 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-18.11.40:093][861]Warning: Starting HotReload took  0.0s.
+[2020.10.03-18.11.47:299][679]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 6:11:47 AM
+[2020.10.03-18.11.47:299][679]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-18.11.47:299][679]CompilerResultsLog: Parsing headers for DungeonGeneratorEditor
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   Running UnrealHeaderTool "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\DungeonGenerator.uproject" "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\DungeonGeneratorEditor\Development\DungeonGeneratorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\balaj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.03-18.11.47:299][679]CompilerResultsLog: Reflection code generated for DungeonGeneratorEditor in 4.5749143 seconds
+[2020.10.03-18.11.47:299][679]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-18.11.47:299][679]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-18.11.47:299][679]CompilerResultsLog: Building 9 actions with 16 processes...
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   [1/9] RoomComponent.cpp
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   [2/9] TileBoardComponent.cpp
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   [3/9] TileBoardComponent.gen.cpp
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   [4/9] RoomComponent.gen.cpp
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   [5/9] TileBoardGeneratorComponent.gen.cpp
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   [6/9] TileBoardGeneratorComponent.cpp
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:   [7/9] UE4Editor-DungeonGenerator-1726.lib
+[2020.10.03-18.11.47:299][679]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-1726.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-1726.exp
+[2020.10.03-18.11.47:300][679]CompilerResultsLog:   [8/9] UE4Editor-DungeonGenerator-1726.dll
+[2020.10.03-18.11.47:300][679]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-1726.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-1726.suppressed.exp
+[2020.10.03-18.11.47:300][679]CompilerResultsLog:   [9/9] DungeonGeneratorEditor.target
+[2020.10.03-18.11.47:300][679]CompilerResultsLog: Total time in Parallel executor: 1.94 seconds
+[2020.10.03-18.11.47:300][679]CompilerResultsLog: Total execution time: 7.13 seconds
+[2020.10.03-18.11.47:300][679]LogMainFrame: MainFrame: Module compiling took 7.213 seconds
+[2020.10.03-18.11.47:322][679]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2020.10.03-18.11.47:324][679]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-18.11.47:364][679]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-18.11.47:364][679]Display: HotReload took  7.3s.
+[2020.10.03-19.28.22:130][764]Candidate modules for hot reload:
+[2020.10.03-19.28.22:130][764]  DungeonGenerator
+[2020.10.03-19.28.22:131][764]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,8541 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-19.28.22:134][764]Warning: Starting HotReload took  0.0s.
+[2020.10.03-19.28.39:490][436]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 7:28:39 AM
+[2020.10.03-19.28.39:490][436]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-19.28.39:490][436]CompilerResultsLog: Parsing headers for DungeonGeneratorEditor
+[2020.10.03-19.28.39:491][436]CompilerResultsLog:   Running UnrealHeaderTool "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\DungeonGenerator.uproject" "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\DungeonGeneratorEditor\Development\DungeonGeneratorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\balaj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.03-19.28.39:491][436]CompilerResultsLog: Error: E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Source/DungeonGenerator/RoomComponent.h(10) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2020.10.03-19.28.39:491][436]LogMainFrame: MainFrame: Module compiling took 17.369 seconds
+[2020.10.03-19.28.39:491][436]Warning: HotReload failed, recompile failed
+[2020.10.03-19.34.24:294][472]Candidate modules for hot reload:
+[2020.10.03-19.34.24:294][472]  DungeonGenerator
+[2020.10.03-19.34.24:295][472]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,3083 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-19.34.24:298][472]Warning: Starting HotReload took  0.0s.
+[2020.10.03-19.34.26:286][662]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 7:34:26 AM
+[2020.10.03-19.34.26:286][662]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-19.34.26:286][662]CompilerResultsLog: Parsing headers for DungeonGeneratorEditor
+[2020.10.03-19.34.26:286][662]CompilerResultsLog:   Running UnrealHeaderTool "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\DungeonGenerator.uproject" "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\DungeonGeneratorEditor\Development\DungeonGeneratorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\balaj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.03-19.34.26:287][662]CompilerResultsLog: Error: E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/Source/DungeonGenerator/RoomComponent.h(10) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2020.10.03-19.34.26:287][662]LogMainFrame: MainFrame: Module compiling took 1.995 seconds
+[2020.10.03-19.34.26:287][662]Warning: HotReload failed, recompile failed
+[2020.10.03-19.34.48:058][593]Candidate modules for hot reload:
+[2020.10.03-19.34.48:058][593]  DungeonGenerator
+[2020.10.03-19.34.48:058][593]Launching UnrealBuildTool... [E:/UnrealEngine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DungeonGenerator,3929 DungeonGeneratorEditor Win64 Development -Project="E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject" "E:/GameProgramming2/DungeonGenerator/procedural generation for unreal/DungeonGenerator/DungeonGenerator.uproject"  -IgnoreJunk]
+[2020.10.03-19.34.48:061][593]Warning: Starting HotReload took  0.0s.
+[2020.10.03-19.34.58:883][780]CompilerResultsLog: New page: Compilation - Oct 3, 2020, 7:34:58 AM
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Parsing headers for DungeonGeneratorEditor
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   Running UnrealHeaderTool "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\DungeonGenerator.uproject" "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\DungeonGeneratorEditor\Development\DungeonGeneratorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\balaj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Reflection code generated for DungeonGeneratorEditor in 4.6009153 seconds
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Building DungeonGeneratorEditor...
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Building 9 actions with 16 processes...
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [1/9] TileBoardComponent.cpp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [2/9] TileBoardGeneratorComponent.cpp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [3/9] RoomComponent.cpp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [4/9] TileBoardComponent.gen.cpp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [5/9] TileBoardGeneratorComponent.gen.cpp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [6/9] RoomComponent.gen.cpp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [7/9] UE4Editor-DungeonGenerator-3929.lib
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3929.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3929.exp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [8/9] UE4Editor-DungeonGenerator-3929.dll
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:      Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3929.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator-3929.suppressed.exp
+[2020.10.03-19.34.58:884][780]CompilerResultsLog:   [9/9] DungeonGeneratorEditor.target
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Total time in Parallel executor: 5.46 seconds
+[2020.10.03-19.34.58:884][780]CompilerResultsLog: Total execution time: 10.73 seconds
+[2020.10.03-19.34.58:884][780]LogMainFrame: MainFrame: Module compiling took 10.830 seconds
+[2020.10.03-19.34.58:942][780]LogClass: Could not find existing class RoomComponent in package /Script/DungeonGenerator for HotReload, assuming new class
+[2020.10.03-19.34.58:949][780]LogHotReload: Re-instancing RoomComponent after hot-reload.
+[2020.10.03-19.34.58:955][780]LogContentBrowser: Native class hierarchy updated for 'DungeonGenerator' in 0.0014 seconds. Added 6 classes and 2 folders.
+[2020.10.03-19.34.58:956][780]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.03-19.34.59:012][780]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 3435 classes and 826 folders.
+[2020.10.03-19.34.59:012][780]Display: HotReload took 11.0s.
+[2020.10.03-19.37.25:995][562]LogHotReload: New module detected: UE4Editor-DungeonGenerator-0011.dll
+[2020.10.03-19.37.26:352][564]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.03-19.37.26:404][564]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.03-19.37.26:404][564]LogWindows: Windows GetLastError: The operation completed successfully. (0)

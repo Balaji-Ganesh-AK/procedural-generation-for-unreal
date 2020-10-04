@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\GameProgramming2\\DungeonGenerator\\procedural generation for unreal\\DungeonGenerator\\Source\\DungeonGenerator\\DungeonGenerator.Build.cs",
+		"E:\\GameProgramming2\\DungeonGenerator\\procedural generation for unreal\\DungeonGenerator\\Source\\DungeonGenerator.Target.cs",
+		"E:\\GameProgramming2\\DungeonGenerator\\procedural generation for unreal\\DungeonGenerator\\Source\\DungeonGeneratorEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

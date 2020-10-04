@@ -1,0 +1,20 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\GameProgramming2\DungeonGenerator\procedural generation for unreal).
+  Parsing headers for DungeonGeneratorEditor
+    Running UnrealHeaderTool "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\DungeonGenerator.uproject" "E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\DungeonGeneratorEditor\Development\DungeonGeneratorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\balaj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for DungeonGeneratorEditor in 17.6039481 seconds
+  Building DungeonGeneratorEditor...
+  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 16 processes...
+    [1/9] TileBoardComponent.cpp
+    [2/9] TileBoardGeneratorComponent.cpp
+    [3/9] RoomComponent.cpp
+    [4/9] TileBoardComponent.gen.cpp
+    [5/9] TileBoardGeneratorComponent.gen.cpp
+    [6/9] RoomComponent.gen.cpp
+    [7/9] UE4Editor-DungeonGenerator.lib
+       Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator.exp
+    [8/9] UE4Editor-DungeonGenerator.dll
+       Creating library E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator.suppressed.lib and object E:\GameProgramming2\DungeonGenerator\procedural generation for unreal\DungeonGenerator\Intermediate\Build\Win64\UE4Editor\Development\DungeonGenerator\UE4Editor-DungeonGenerator.suppressed.exp
+    [9/9] DungeonGeneratorEditor.target
+  Total time in Parallel executor: 2.14 seconds
+  Total execution time: 20.31 seconds

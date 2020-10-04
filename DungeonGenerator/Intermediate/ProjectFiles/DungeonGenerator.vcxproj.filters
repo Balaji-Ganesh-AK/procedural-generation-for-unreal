@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DungeonGenerator.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{86EABF49-729C-4E83-A598-7DBD5998A7FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DungeonGenerator.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DungeonGeneratorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{343D4CE9-9635-45A0-A3C1-9480A48A6523}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Rooms">
+      <UniqueIdentifier>{23274AD6-65A7-4E7E-A1BE-F8EF8720D1B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Rooms\Room1.txt">
+      <Filter>Config\Rooms</Filter>
+    </None>
+    <Filter Include="Source\DungeonGenerator">
+      <UniqueIdentifier>{835BB025-A1C8-4179-B9F6-651E385EB830}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DungeonGenerator\DoorComponent.cpp">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonGenerator\DoorComponent.h">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\DungeonGenerator\DungeonGenerator.Build.cs">
+      <Filter>Source\DungeonGenerator</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DungeonGenerator\DungeonGenerator.cpp">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonGenerator\DungeonGenerator.h">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DungeonGenerator\RoomComponent.cpp">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonGenerator\RoomComponent.h">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DungeonGenerator\TileBoardComponent.cpp">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonGenerator\TileBoardComponent.h">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DungeonGenerator\TileBoardGeneratorComponent.cpp">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonGenerator\TileBoardGeneratorComponent.h">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DungeonGenerator\TileComponent.cpp">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonGenerator\TileComponent.h">
+      <Filter>Source\DungeonGenerator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
